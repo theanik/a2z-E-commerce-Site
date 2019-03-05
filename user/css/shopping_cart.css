@@ -1,0 +1,252 @@
+*{
+		margin: 0 auto;
+		padding: 0;
+	}
+	body{
+		box-sizing: border-box;
+		background: #F4F4F4;
+	}
+	.shopping_cart_container{
+		width: 100%;
+		position: relative;
+		justify-content: center;
+  		align-items: center;
+  		display: flex;
+		float: left;
+		
+		padding: 10px;
+		font-family: sans-serif;
+	}
+	.shopping_cart_main{
+		padding: 10px;
+		/*background-color: #FFFFFF;*/
+		width: 1200px;
+		margin: auto;
+		float: left;
+		/*height: 890px;*/
+	}
+	.delivery_info_sec{
+		width: 68%;
+		float: left;
+		margin-right: 2%;
+		background: #FFFFFF;
+		/*height: 400px;*/
+		padding: 5px;
+	}
+	.delivery_info_sec_main{
+		width: 100%;
+		float: left;
+		padding: 5px;
+	}
+	.del_info_from_container{
+		width: 100%;
+		float: left;
+		float: 5px;
+	}
+	.del_info_from_main{
+		width: 100%;
+		float: left;
+	}
+	.form_left_sec{
+		width: 50%;
+		float: left;
+		padding: 10px;
+	}
+	.form_left_sec fieldset{
+		border: none;
+		padding: 5px;
+	}
+	.form_left_sec fieldset ul{
+		list-style: none;
+	}
+	.form_left_sec fieldset ul li{
+		color: rgba(0,0,0,0.5);
+		
+		font-weight: bold;
+		padding: 5px;
+	}
+	.form_left_sec fieldset ul li label{
+		font-size: 12px;
+		color: rgba(0,0,0,0.5);
+	}
+	.form_left_sec fieldset ul li input[type="text"]{
+		height: 35px;
+		width: 90%;
+		padding: 5px;
+		border:1px #cccccc solid;
+		color:#5a3b43;
+		border-radius: 2px;
+	}
+	.form_left_sec fieldset ul li input[type="text"]:focus{
+		border: 1px solid #25A5D8;
+		transition: 0.5s;
+	}
+	.form_left_sec fieldset ul li input[type="password"]{
+		height: 35px;
+		width: 90%;
+		padding: 5px;
+		border:1px #cccccc solid;
+		color:#5a3b43;
+		border-radius: 2px;
+	}
+	.form_right_sec{
+		width: 50%;
+		float: left;
+		padding: 10px;
+	}
+	.form_right_sec fieldset{
+		border: none;
+		padding: 5px;
+	}
+	.form_right_sec fieldset ul{
+		list-style: none;
+	}
+	.form_right_sec fieldset ul li{
+		color: rgba(0,0,0,0.5);
+		
+		font-weight: bold;
+		padding: 5px;
+	}
+	.form_right_sec fieldset ul li label{
+		font-size: 12px;
+		color: rgba(0,0,0,0.5);
+	}
+	.form_right_sec fieldset ul li textarea{
+		width: 90%;
+		padding: 5px;
+		border:1px #cccccc solid;
+		color:#5a3b43;
+		border-radius: 2px;
+	}
+	.form_right_sec fieldset ul li select{
+		height: 35px;
+		width: 90%;
+		padding: 5px;
+		border:0.5px #cccccc solid;
+		color:#5a3b43;
+		border-radius: 2px;
+		
+	}
+	.submit_btn_sec{
+		width: 100%;
+		float: left;
+		padding: 10px 43px;
+	}
+	
+	.submit_btn_sec input[type="submit"]{
+		width: 40%;
+		padding: 10px;
+		cursor:pointer;
+		border-radius: 2px;
+		border: none;
+		background: #25A5D8;
+		float: right;
+		color: #FFFFFF;
+
+	}
+	.info_header{
+		padding: 15px;
+		color: rgba(0,0,0,0.6);
+		width: 100%;
+		float: left;
+		font-size: 18px;
+	}
+	.order_summary_container{
+		width: 30%;
+		float: left;
+		background: #FFFFFF;
+		/*height: 400px;*/
+		/*color: rgba(0,0,0,0.7);*/
+		padding: 7px;
+		
+		}
+	.order_summary_main{
+		width: 100%;
+		
+		}				
+	.oder_summary_header{
+		color: rgba(0,0,0,0.5);
+		width: 100%;
+		float: left;
+		font-size: 19px;
+		padding: 10px;
+		border-bottom: 1px solid #CCC;
+	}
+	.summary_content{
+		width: 100%;
+		padding: 10px;
+		font-size: 15px;
+		float: left;
+	}
+	.summary_content fieldset{
+		color: rgba(0,0,0,0.5);
+		width: 100%;
+		float: left;
+		padding: 10px 0;
+		border: none;
+	}
+	.summary_content fieldset h5{
+		float: right;
+	}
+	.summary_content fieldset input[type="text"]{
+		height: 35px;
+		width: 73%;
+		padding: 5px;
+		border:1px #cccccc solid;
+		color:#5a3b43;
+		border-radius: 2px;
+		
+	}
+	.summary_content fieldset input[type="text"]:focus{
+		border: 1px solid #25A5D8;
+		transition: 0.5s;
+	}
+	.summary_content fieldset input[type="submit"]{
+		height: 35px;
+		width: 24%;
+		/*padding: 10px 16px;*/
+		background: #25A5D8;
+		color:#FFFFFF;
+		border-radius: 1px;
+		border: none;
+		cursor: pointer;
+	}
+	
+	.summary_content fieldset ul{
+		list-style: none;
+	}
+	.summary_content fieldset ul li{
+		color: rgba(0,0,0,0.5);
+		
+		font-weight: bold;
+		padding: 5px;
+	}
+	.summary_content fieldset ul li label{
+		font-size: 17px;
+		color: #F99000;
+	}
+	.summary_content fieldset ul li select{
+		height: 35px;
+		width: 100%;
+		padding: 5px;
+		border:0.5px #cccccc solid;
+		color:#5a3b43;
+		border-radius: 2px;
+		
+	}
+	#final_check_out{
+		height: 35px;
+		width: 100%;
+		/*padding: 10px 16px;*/
+		background: #25A5D8;
+		color:#FFFFFF;
+		border-radius: 1px;
+		border: none;
+		cursor: pointer;
+		padding: 8px 18px;
+		float: left;
+	}
+	#final_check_out:hover{
+		background: #16849B;
+		transition: 1s;
+	}

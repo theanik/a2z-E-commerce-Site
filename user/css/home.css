@@ -1,0 +1,548 @@
+*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	body{
+		background: #F4F4F4;
+}
+
+	.main_navbar_sec{
+		width: 100%;
+		background: #FFFFFF;
+		padding: 5px 0px;
+		box-shadow:0 2px 3px rgba(0,0,0,0.2);
+		border-bottom:0.5px solid #E2E2E2;
+		z-index: 999;
+		}
+		/*#myHeader{
+			position: fixed;
+			top: 0;
+			transition: top 0.3s;
+		}*/
+	.navbar_main_container{
+		margin: 0 auto;
+		width: 100%;
+		width: 1200px;
+		height: 50px;
+	}
+	.navbar_logo_sec{
+		float: left;
+		height: 100%;
+		width: 15%;
+		/*position: relative;*/
+	}
+	.navbar_logo_sec ul{
+		list-style: none;
+	}
+	.navbar_logo_sec ul li{
+		float: left;
+		line-height: 50px;
+		height: 100%;
+
+	}
+	.navbar_logo_sec ul li a{
+		text-decoration: none;
+	}
+	.navbar_logo_sec ul li h2{
+		font-size: 40px;
+		font-family: cursive;
+	}
+	.navbar_search_bar{
+		width: 50%;
+		height: 100%;
+		float: left;
+		text-align: center;
+	}
+	.navbar_search_bar input[type="text"]{
+		margin: 7.5px 0;
+		height: 35px;
+		width: 50%;
+		border: 0.5px solid #cccccc;
+		border-radius: 2px 0 0 2px;
+		padding: 0 10px;
+		margin-right: -5.5px;
+		transition:width 0.3s;
+
+	}
+	.navbar_search_bar input[type="text"]:hover{
+		border: 0.5px solid #FF9900;
+	}
+	.navbar_search_bar input[type="text"]:focus{
+		width: 80%;
+		border: 0.5px solid #FF9900;
+	}
+	.navbar_search_bar input[type="submit"]{
+		margin: 7.5px 0;
+		height: 35px;
+		width: 120px;
+		background-color: #FF9900;
+		border: none;
+		border-radius: 0 2px 2px 0;
+		padding: 0 10px;
+		color: #FFFFFF;
+		cursor:pointer;
+		letter-spacing:0.5px;
+	}
+	.navbar_search_bar input[type=submit]:active{
+	background:#FF6600;
+	}
+	.navbar_menu_li{
+		height: 100%;
+		width: 35%;
+		text-align: center;
+		float: left;
+		font-family: sans-serif;
+
+	}
+	/*.navbar_menu_li ul{
+		list-style:none;
+	}
+	.navbar_menu_li ul li{
+		height: 50px;
+		float: left;
+		width: 33.333%;
+		padding: 8px 0;
+	}*/
+	/*.navbar_menu_li h4{
+		font-size: 14px;
+	}
+	.navbar_menu_li_01{
+		position: relative;
+		float: left;
+		width: 33.333%;
+
+	}
+	.navbar_menu_li_02{
+		position: relative;
+		float: left;
+		width: 33.333%;
+		
+	}
+	.navbar_menu_li_02_main_content{
+		width:100%;
+		height:50px;
+		cursor: pointer;
+		position: relative;
+    	display: inline-block;
+    	text-align: center;
+	}
+	.account_hover_content{
+		position:absolute;
+	width:300px;
+	height:300px;
+	background:rgba(0,0,0,0.5);
+	display:none;
+	border-radius:0 0 2px 2px;
+		
+	}
+	.navbar_menu_li_02_main_content:hover.account_hover_content {display: block;}
+
+	.navbar_menu_li_03{
+		position: relative;
+		float: left;
+		width: 33.333%;
+	}*/
+	/*----------------------------------------------*/
+.header_container_03{
+	float:left;
+	width:35%;
+	height:100%;
+	padding: 8.5px 0;
+	
+}
+.list_column_01{
+position:relative;
+float:left;
+width:33.3333%;
+}
+.list_content_01{
+	width:100%;
+	height:50px;
+	/*line-height:50px;*/
+	font-size:14px;
+	cursor:pointer;
+	text-align:center;
+}
+.help_details_content{
+	position:absolute;
+	width:200px;
+	height:300px;
+	background:rgba(0,0,0,0);
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius:0 0 2px 2px;
+	display:none;
+	margin-left: -25px;
+	box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
+}
+.list_column_01:hover .help_details_content{
+	display:block;
+}
+.list_column_02{
+	position:relative;
+	float:left;
+	width:33.3333%;
+}
+.list_content_02{
+	width:100%;
+	height:50px;
+	/*line-height:50px;*/
+	font-size:14px;
+	cursor:pointer;
+	text-align:center;
+}
+.account_login_section{
+	
+	position:absolute;
+	width:200px;
+	height:300px;
+	background-color: #FFFFFF;
+	border: 1px solid #cccccc;
+	border-radius:0 0 2px 2px;
+	display:none;
+	margin-left: -25px;
+	box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
+	z-index: 999;
+}
+.list_column_02:hover .account_login_section{
+	display:block;
+	z-index: 999;
+}
+.list_column_03{
+	position:relative;
+	float:left;
+	width:33.3333%;
+}
+.list_content_03{
+	width:100%;
+	height:50px;
+	/*line-height:50px;*/
+	font-size:14px;
+	/*cursor:pointer;*/
+	text-align:center;
+}
+.list_content_03 a{
+	text-decoration: none;
+	color: none;
+}
+/*.hover:hover{
+	background:rgba(0,0,0,0.5);
+	color:#FFFFFF;
+}*/
+
+#arrow{
+	 width: 0;
+    height: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 20px dashed transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid #FF9900;
+}
+/*account hover div coontent*/
+.account_cotnent{
+	width: 100%;
+	margin-top: 20px;
+	color: rgba(0,0,0,0.6);
+	font-family:'times new roman';
+	text-align: center;
+}
+.account_cotnent input[type="submit"]{
+	color: #FFFFFF;
+	background: #FF9900;
+	text-align: center;
+	border: none;
+	display: inline-block;
+	padding: 6px 20px;
+	box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
+	/*margin-left: 35%;*/
+	cursor: pointer;
+}
+.account_cotnent input[type="text"]{
+	border: 1px solid #FF9900;
+	
+}
+/*footer srction*/
+
+.footer_main_content_section{
+	position:relative;
+	float:left;
+	width:100%;
+	padding: 20px 0;
+	background:#333333;
+	bottom: 0;
+}
+.footer_content_section{
+	margin:0 auto;
+	width:1200px;
+
+	
+}
+.fotter_container{
+	padding: 30px 0px 60px 0px;
+}
+/*--this footer coding by anik--*/
+.fotter_content
+{
+	height: 100%;
+	width: 100%;
+	
+	
+}
+.col
+{
+	height: 100%;
+	width: 24%;
+	float: left;
+	
+}
+.col a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+.col a:hover
+{
+	color: #FFA200;;
+}
+.col h4
+{
+	color: #FFA200;;
+}
+.col ul li
+{
+	list-style: none;
+	text-decoration: none;
+	float: left;
+	padding: 5px;
+}
+
+.col ul li a img
+{
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+}
+.page_contant_sec{
+	width: 100%;	
+	background: #F4F4F4;
+	margin: auto;
+}
+.all_cat_show{
+	position:absolute;
+	width:200px;
+	height:300px;
+	background-color: #FFFFFF;
+	border: 1px solid #cccccc;
+	border-radius:0 0 2px 2px;
+	display:none;
+	
+	box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
+}
+
+.all_menu:hover .all_cat_show{
+	display:block;
+	cursor: pointer;
+
+}
+.all_menu{
+	cursor: pointer;
+}
+.sticky{
+	top: 0;
+	position: fixed;
+	
+}
+.credit_sec{
+		width: 100%;
+		font-family: sans-serif;
+		color: #FF9900;
+		background-color: #333333;
+		float: left;
+	}
+	.credit_content_sec{
+		width: 1200px;
+		text-align: right;
+		float: left;
+		
+	}
+	.credit_content_sec p{
+		font-size: 11px;
+		padding: 10px 0;
+	}
+	.credit_content_sec a{
+		color: #FFFFFF;
+	}
+	/*loooooooooooooooooooog in form*/
+	.container input[type=text], .container input[type=password] {
+    width: 100%;
+    padding: 8px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.container label{
+	color: #FF9900;
+	margin: 8px 0;
+	font-family: sans-serif;
+
+}
+/* Set a style for all buttons */
+.container button {
+    background-color: #FF9900;
+    color: white;
+    padding: 8px 10px;
+    margin: 12px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.container button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+#cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background: #FF3737;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+    font-family: cursive;
+}
+.imgcontainer h3{
+	color: rgba(0,0,0,0.5);	
+}
+
+
+.container {
+    padding: 16px;
+}
+.action_div{
+	padding: 10px;
+	color: red;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 35%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    #cancelbtn {
+       width: 100%;
+    }
+}
+
+#mySidenav{
+	/*top:50%;*/
+}
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+   
+   
+}
+
+#mySidenav a:hover {
+    left: 0;
+     z-index: 1;
+}
+
+#about {
+    top: 100px;
+    background-color: #009999;
+     
+   
+}
+
+#blog {
+    top: 120px;
+    background-color: #2196F3;
+    
+}
+
+#projects {
+    top: 140px;
+    background-color: #cccc;
+   
+}
+
+#contact {
+    top: 160px;
+    background-color: #FF9000;
+    
+}

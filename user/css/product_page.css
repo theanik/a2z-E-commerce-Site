@@ -1,0 +1,119 @@
+
+	*{
+		
+		padding: 0;
+		box-sizing: border-box;
+		
+	}
+	.show_product_container{
+			width: 100%;
+			height: auto;
+			background-color: #F4F4F4;
+			padding: 10px 0;
+			float: left;
+			text-align: center;
+			 display: flex;
+  			justify-content: center;
+  			align-items: center;
+  			margin: auto;
+			color: rgba(0,0,0,0.6);
+			font-family: sans-serif;
+			/*position: relative;*/
+
+		}
+		.show_prouct_main{
+			width: 1200px;
+			background-color: lightgreen;
+			padding: 10px;
+			height: auto;
+			text-align: center;
+			float: left;
+			background-color: #FFFFFF;
+		}
+		.show_prouct_main a{
+			text-decoration: none;
+		}
+		.show_prouct_main > section{
+			padding: 10px;
+			/*float: left;*/
+			font-family: sans-serif;
+			color: #FF9000;
+			text-align: left;
+			font-size: 20px;
+		}
+		.product_single_show{
+			height: 300px;
+			width: 16%;
+			margin: 0.32%;
+			
+			float: left;
+			/*padding: 10px;*/
+			border: 1px solid rgba(0,0,0,0.2);
+		}
+		.product_single_show:hover{
+			box-shadow: 1px 3px 4px rgba(0,0,0,0.2);
+		}
+		.product_content{
+			height: 100%;
+			width: 100%;
+		}
+		.product_img{
+			height: 55%;
+			width: 100%;
+			/*border-bottom: 1px solid rgba(0,0,0,0.1);*/
+			box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+			
+		}
+		
+		.product_img img{
+			height: 100%;
+			width: 100%;
+		}
+		.brand_img_for_pro{
+			height: 50px;
+			width: 40%;
+			border: 1px solid rgba(0,0,0,0.1);
+			margin-top: -12%;
+			margin-left: 30%;
+			box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+
+		}
+		.brand_img_for_pro img{
+			height: 100%;
+			width: 100%;
+			box-shadow: 1px 3px 4px (0,0,0,0.2);
+		}
+		
+		.product_name{
+			overflow:hidden;
+			padding:5px;
+			text-align: center;
+			height: 10%;
+			width: 100%;
+		}
+		.product_name h5{
+			padding: 10px;
+			color: rgba(0,0,0,0.7);
+			
+		}
+		.product_price{
+			height: 10%;
+			width: 100%;
+		}
+		.product_price h4{
+			padding: 10px;
+			color: #FF9000;
+		}
+		.cart_button{
+			height: 10%;
+			width: 100%;
+			padding: 10px;
+		}
+		.cart_button input{
+			padding: 6px 20px;
+			background-color: #FF9000;
+			color: #FFFFFF;
+			border-radius: 2px;
+			border: none;
+			
+		}
